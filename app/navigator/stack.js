@@ -23,7 +23,13 @@ function AppStack() {
                 headerShown: false,
             }} 
             />
-        <Stack.Screen name="CreateUser" component={Routes.CreateUser} />
+        <Stack.Screen 
+          name="CreateUser" 
+          component={Routes.CreateUser}
+          options={{ 
+            headerShown: false,
+          }}
+          />
         </Stack.Navigator>
     </NavigationContainer>
   );
