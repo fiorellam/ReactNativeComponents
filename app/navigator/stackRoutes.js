@@ -1,5 +1,5 @@
-import Login from '../views/login';
-import CreateUser from '../views/createUser';
+import Login from '../views/Login';
+import CreateUser from '../views/SignUp';
 
 export default{
     Login, 
