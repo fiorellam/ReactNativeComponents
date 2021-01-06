@@ -2,10 +2,10 @@ import * as React from 'react';
 import { Button, View, Text, StyleSheet } from 'react-native';
 import { createDrawerNavigator, DrawerContentScrollView, DrawerItem } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
-import Home from '../views/home';
+import Home from '../views/Home';
 import { DrawerContent } from './DrawerContent';
-import Settings from '../views/home'
-import Login from '../views/login';
+import Settings from '../views/Home'
+import Login from '../views/Login';
 
 const Drawer = createDrawerNavigator();
 
