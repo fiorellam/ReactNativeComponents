@@ -6,10 +6,10 @@ import { NavigationContainer } from '@react-navigation/native';
 function Home({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Home</Text>
+        <Text>Hoooome</Text>
       <Button
-        onPress={() => navigation.navigate('Notifications')}
-        title="Go to notifications"
+        onPress={() => {}}
+        title="Go to notificatins"
       />
     </View>
   );

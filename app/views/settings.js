@@ -7,8 +7,9 @@ function Settings({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
         <Text>Settings</Text>
+        <Text>Hola</Text>
       <Button
-        onPress={() => navigation.navigate('Notifications')}
+        onPress={() => {}}
         title="Go to notifications"
       />
     </View>

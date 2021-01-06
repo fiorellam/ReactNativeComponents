@@ -4,7 +4,7 @@ import { createDrawerNavigator, DrawerContentScrollView, DrawerItem } from '@rea
 import { NavigationContainer } from '@react-navigation/native';
 import Home from '../views/Home';
 import { DrawerContent } from './DrawerContent';
-import Settings from '../views/Home'
+import Settings from '../views/Settings'
 import Login from '../views/Login';
 
 const Drawer = createDrawerNavigator();
